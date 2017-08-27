@@ -1,0 +1,32 @@
+﻿---
+ID: "d6cd9e8a-fd59-4433-8bd6-95f2d4aea0bf"
+Parent: "f4f40881-72e4-409e-9a4b-97b129be3b52"
+Template: "f90052a5-b4e6-4e6d-9812-1e1b88a6fcea"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Conditional Renderings/Remove Parameter Term
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 575
+- ID: "ff55d5a7-6d4b-4cd1-83e0-bac268073f66"
+  Hint: Type
+  Value: Community.Foundation.ConditionalParameters.Rules.Actions.RemoveParameterTermAction,Community.Foundation.ConditionalParameters
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Remove partial value
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080925T143242
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "eeb36a3b-40d9-4af5-862a-de257b84dca3"
+      Hint: Text
+      Value: "set multilist [Name,,,parameter], remove [Term,,,term] (if exists)"
