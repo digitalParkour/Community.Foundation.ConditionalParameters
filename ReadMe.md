@@ -15,7 +15,10 @@ However, these require the user to know the name and value of the parameters. So
 
 Setup
 --------------
-
+Either:
+* Install Sitecore package: Community-Foundation-ConditionalParameters.SitecorePackage.zip
+	> This was compiled against Sitecore 8.2 update 5 (170728) NuGet package references.
+Or:
 1. Include this project in your Helix style solution
 2. Update NuGet references to match target sitecore version
 3. Sync unicorn data or install sitecore package
